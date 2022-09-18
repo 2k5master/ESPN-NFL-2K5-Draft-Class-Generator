@@ -7,7 +7,7 @@ Welcome to the ESPN NFL 2K5 Draft Class Generator!
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 You need:
 1) Mymc: http://www.csclub.uwaterloo.ca:11068/mymc/
-2) The Draft Class Generator Tool: You can download that right here!
+2) Flying_Finn's NFL 2K5 Gamesave Editor: http://www.nfl2k5rosters.com/files/NFL2k5_V4_0_0_41.exe
 3) Bad_AL's NFL 2k5 tool: https://forums.operationsports.com/forums/espn-nfl-2k5-football/881901-nfl2k5tool.html
 
 To get these files all packaged into one download, visit this mediafire link: https://www.mediafire.com/file/6lzllusadz09vz8/OtherPrograms.zip/file
