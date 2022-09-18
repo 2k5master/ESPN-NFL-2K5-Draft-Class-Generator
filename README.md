@@ -3,14 +3,7 @@
 Welcome to the ESPN NFL 2K5 Draft Class Generator!
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   _____           _   _               __      _____      _               
-  / ____|         | | (_)             /_ |_   / ____|    | |              
- | (___   ___  ___| |_ _  ___  _ __    | (_) | (___   ___| |_ _   _ _ __  
-  \___ \ / _ \/ __| __| |/ _ \| '_ \   | |    \___ \ / _ \ __| | | | '_ \ 
-  ____) |  __/ (__| |_| | (_) | | | |  | |_   ____) |  __/ |_| |_| | |_) |
- |_____/ \___|\___|\__|_|\___/|_| |_|  |_(_) |_____/ \___|\__|\__,_| .__/ 
-                                                                   | |    
-                                                                   |_|    
+# Section 1: Setup 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 You need:
 1) The NFL 2K23 Mod: nfl2kmod.com
@@ -21,16 +14,7 @@ You need:
 These files will all be packed into the main download with the Draft Class Generator, so don't worry about installing them.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-   _____           _   _               ___      _____                            _   _              __     __                ______ _ _      
-  / ____|         | | (_)             |__ \ _  |_   _|                          | | (_)             \ \   / /               |  ____(_) |     
- | (___   ___  ___| |_ _  ___  _ __      ) (_)   | |  _ __ ___  _ __   ___  _ __| |_ _ _ __   __ _   \ \_/ /__  _   _ _ __  | |__   _| | ___ 
-  \___ \ / _ \/ __| __| |/ _ \| '_ \    / /      | | | '_ ` _ \| '_ \ / _ \| '__| __| | '_ \ / _` |   \   / _ \| | | | '__| |  __| | | |/ _ \
-  ____) |  __/ (__| |_| | (_) | | | |  / /_ _   _| |_| | | | | | |_) | (_) | |  | |_| | | | | (_| |    | | (_) | |_| | |    | |    | | |  __/
- |_____/ \___|\___|\__|_|\___/|_| |_| |____(_) |_____|_| |_| |_| .__/ \___/|_|   \__|_|_| |_|\__, |    |_|\___/ \__,_|_|    |_|    |_|_|\___|
-                                                               | |                            __/ |                                          
-                                                               |_|                           |___/                                           
-
+# Section 2: Importing Your File
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 In this section, we're going to get our franchise file onto our computer and ready to edit. First, make sure that your franchise is in the offseason. I haven't tested it for anything other than the offseason, so it may or may not work for other places in the season.
 
@@ -39,26 +23,12 @@ Anyhow, shut down your PCSX2 after saving your file. Then, open mymc and extract
 After that, open the NFL2k5Tool. Click File>Load. Don't worry if nothing pops up! Click view, then deselect everything but the List Draft Class option. Then, click list contents. Finally, click file>save text then save it as a .csv in your NFL 2K5 Draft Tool directory. Name it anything you want.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   _____           _   _               ____      _    _     _               _______ _            _______          _ 
-  / ____|         | | (_)             |___ \ _  | |  | |   (_)             |__   __| |          |__   __|        | |
- | (___   ___  ___| |_ _  ___  _ __     __) (_) | |  | |___ _ _ __   __ _     | |  | |__   ___     | | ___   ___ | |
-  \___ \ / _ \/ __| __| |/ _ \| '_ \   |__ <    | |  | / __| | '_ \ / _` |    | |  | '_ \ / _ \    | |/ _ \ / _ \| |
-  ____) |  __/ (__| |_| | (_) | | | |  ___) |_  | |__| \__ \ | | | | (_| |    | |  | | | |  __/    | | (_) | (_) | |
- |_____/ \___|\___|\__|_|\___/|_| |_| |____/(_)  \____/|___/_|_| |_|\__, |    |_|  |_| |_|\___|    |_|\___/ \___/|_|
-                                                                     __/ |                                          
-                                                                    |___/                                           
+# Section 3: Using The Tool                                        
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This is the simplest part. When you open the tool, enter 1, and then all you have to do is enter the name of your csv. Then, let the tool do its magic! Once it is done, you should see a confirmation print-out in the terminal and you'll see a new file that was added to the directory: new.csv. Open that file in a text editor; DO NOT OPEN IT IN EXCEL OR ANOTHER SPREADSHEET EDITOR. You'll need to copy the text from this file.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   _____           _   _               _  _       ______                       _   _             
-  / ____|         | | (_)             | || |  _  |  ____|                     | | (_)            
- | (___   ___  ___| |_ _  ___  _ __   | || |_(_) | |__  __  ___ __   ___  _ __| |_ _ _ __   __ _ 
-  \___ \ / _ \/ __| __| |/ _ \| '_ \  |__   _|   |  __| \ \/ / '_ \ / _ \| '__| __| | '_ \ / _` |
-  ____) |  __/ (__| |_| | (_) | | | |    | |  _  | |____ >  <| |_) | (_) | |  | |_| | | | | (_| |
- |_____/ \___|\___|\__|_|\___/|_| |_|    |_| (_) |______/_/\_\ .__/ \___/|_|   \__|_|_| |_|\__, |
-                                                             | |                            __/ |
-                                                             |_|                           |___/ 
+# Section 4: Exporting
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This is the most important section. You'll need two tools for this: Bad_AL's NFL2k5Tool and FlyingFinn's editor. First, open the NFL2k5Tool and click file>load. From there, select your extracted .max. It's a good idea to make a backup, just in case. After the file loads, click view and then deselect everything except for the list draft class option. Then, click list contents and then clear. Finally, paste your text file into the editor, and click File>Save.
 
@@ -68,15 +38,7 @@ Finally, open MYMC. Select your franchise file, and then click file>delete. Then
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   _____           _   _               _____    _   _       _                              _   _____       _                       _             
-  / ____|         | | (_)             | ____|  | \ | |     | |                            | | |  __ \     | |                     (_)            
- | (___   ___  ___| |_ _  ___  _ __   | |__(_) |  \| | ___ | |_ ___  ___    __ _ _ __   __| | | |  | | ___| |__  _   _  __ _  __ _ _ _ __   __ _ 
-  \___ \ / _ \/ __| __| |/ _ \| '_ \  |___ \   | . ` |/ _ \| __/ _ \/ __|  / _` | '_ \ / _` | | |  | |/ _ \ '_ \| | | |/ _` |/ _` | | '_ \ / _` |
-  ____) |  __/ (__| |_| | (_) | | | |  ___) |  | |\  | (_) | ||  __/\__ \ | (_| | | | | (_| | | |__| |  __/ |_) | |_| | (_| | (_| | | | | | (_| |
- |_____/ \___|\___|\__|_|\___/|_| |_| |____(_) |_| \_|\___/ \__\___||___/  \__,_|_| |_|\__,_| |_____/ \___|_.__/ \__,_|\__, |\__, |_|_| |_|\__, |
-                                                                                                                        __/ | __/ |         __/ |
-                                                                                                                       |___/ |___/         |___/ 
-
+# Section 5: Notes and Debugging
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Essentially, to get good, usable draft classes in this game, you have to use player names that are built into the roster you're using. For 2004 rosters, it works great. But for other rosters, it still tries to generate names based on the 2004 database, and that's what causes the asterisk and blank name issue. So, in order for this tool to work, it has to generate names based on the existing database. Which means that the tool has to use the EXACT name. For example, if the last name was "Stingley Jr" you couldn't make it so that the last name is just "Stingley". Essentially, we're stuck with the existing names in the database. Which is unfortunate, because there's only about 1,700 names. Which means that there will be a lot of repetitive names; it's just how the cookie crumbles. Think about it this way: if you were doing it manually, you would be limited to the same set of names as well. This just automates the process.
 
