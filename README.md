@@ -6,10 +6,9 @@ Welcome to the ESPN NFL 2K5 Draft Class Generator!
 # Section 1: Setup 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 You need:
-1) The NFL 2K23 Mod: nfl2kmod.com
-2) Mymc: http://www.csclub.uwaterloo.ca:11068/mymc/
-3) The Draft Class Generator Tool: You can download that right here!
-4) Bad_AL's NFL 2k5 tool: https://forums.operationsports.com/forums/espn-nfl-2k5-football/881901-nfl2k5tool.html
+1) Mymc: http://www.csclub.uwaterloo.ca:11068/mymc/
+2) The Draft Class Generator Tool: You can download that right here!
+3) Bad_AL's NFL 2k5 tool: https://forums.operationsports.com/forums/espn-nfl-2k5-football/881901-nfl2k5tool.html
 
 These files will all be packed into the main download with the Draft Class Generator, so don't worry about installing them.
 
