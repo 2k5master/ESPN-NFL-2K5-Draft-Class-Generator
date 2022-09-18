@@ -10,7 +10,7 @@ You need:
 2) The Draft Class Generator Tool: You can download that right here!
 3) Bad_AL's NFL 2k5 tool: https://forums.operationsports.com/forums/espn-nfl-2k5-football/881901-nfl2k5tool.html
 
-These files will all be packed into the main download with the Draft Class Generator, so don't worry about installing them.
+To get these files all packaged into one download, visit this mediafire link: https://www.mediafire.com/file/6lzllusadz09vz8/OtherPrograms.zip/file
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Section 2: Importing Your File
@@ -34,7 +34,6 @@ This is the most important section. You'll need two tools for this: Bad_AL's NFL
 You're not done just yet. If you don't do this next step, your file will become corrupted. Open Flying_Finn's NFL 2k5 Gamesave Editor and load your save file. Then, open any player profile and click "accept". Then, save your file and you should be good to go. In the future, I may try to add a way to load the .max directly into my tool, but for now this will have to do.
 
 Finally, open MYMC. Select your franchise file, and then click file>delete. Then, click file>import and open your modified franchise file. When MYMC is done with this process, it should autosave and you're good to go!
-
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Section 5: Notes and Debugging
