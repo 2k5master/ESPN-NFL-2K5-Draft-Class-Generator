@@ -1,4 +1,4 @@
-# ESPN-NFL-2K5-Draft-Class-Generator by 2k5master
+# ESPN NFL 2K5 Draft Class Generator by 2k5master
 
 Welcome to the ESPN NFL 2K5 Draft Class Generator!
 
