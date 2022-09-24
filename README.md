@@ -1,6 +1,6 @@
 # ESPN NFL 2K5 Draft Class Generator by 2k5master
 
-PLEASE THROUGH ALL OF THE DOCUMENTATION BEFORE USING THE TOOL!!!
+# PLEASE THROUGH ALL OF THE DOCUMENTATION BEFORE USING THE TOOL!!!
 
 # New Features
 - Added the ability to generate a new acceptableNames.txt. More on how to use this in the last section.
