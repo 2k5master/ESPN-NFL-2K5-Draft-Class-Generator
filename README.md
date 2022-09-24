@@ -33,6 +33,7 @@ After that, open the NFL2k5Tool. Click File>Load. Don't worry if nothing pops up
 # Section 3: Using The Tool                                        
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This is the simplest part. When you open the tool, enter 1, and then all you have to do is enter the name of your csv. Then, let the tool do its magic! Once it is done, you should see a confirmation print-out in the terminal and you'll see a new file that was added to the directory: new.csv. Open that file in a text editor; DO NOT OPEN IT IN EXCEL OR ANOTHER SPREADSHEET EDITOR. You'll need to copy the text from this file. An additional option is to toggle whether you want last names with suffixes or not. If you do, click 4 before clicking 1; if you don't click 3 before clicking 1. Once you click 3/4 once, you don't have to click it again when using the tool later.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Section 4: Exporting
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
