@@ -2,6 +2,12 @@
 
 PLEASE THROUGH ALL OF THE DOCUMENTATION BEFORE USING THE TOOL!!!
 
+# New Features
+- Added the ability to generate a new acceptableNames.txt. More on how to use this in the last section.
+- Added a debug menu.
+- Added a BETA way to weed out recognizable names. This isn't perfect, and right now it mainly just removes last names with suffixes, so you won't see "Stingley Jr" or last names like that. It's enabled by default, but you can toggle it in the program.
+- Added some developer shortcuts that y'all won't see :)
+
 Welcome to the ESPN NFL 2K5 Draft Class Generator!
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -23,12 +29,10 @@ In this section, we're going to get our franchise file onto our computer and rea
 Anyhow, shut down your PCSX2 after saving your file. Then, open mymc and extract your franchise file. Extract it to a place you'll remember; for me I extract it to my saves folder in the NFL 2K23 directory. 
 
 After that, open the NFL2k5Tool. Click File>Load. Don't worry if nothing pops up! Click view, then deselect everything but the List Draft Class option. Then, click list contents. Finally, click file>save text then save it as a .csv in your NFL 2K5 Draft Tool directory. Name it anything you want.
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Section 3: Using The Tool                                        
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-This is the simplest part. When you open the tool, enter 1, and then all you have to do is enter the name of your csv. Then, let the tool do its magic! Once it is done, you should see a confirmation print-out in the terminal and you'll see a new file that was added to the directory: new.csv. Open that file in a text editor; DO NOT OPEN IT IN EXCEL OR ANOTHER SPREADSHEET EDITOR. You'll need to copy the text from this file.
-
+This is the simplest part. When you open the tool, enter 1, and then all you have to do is enter the name of your csv. Then, let the tool do its magic! Once it is done, you should see a confirmation print-out in the terminal and you'll see a new file that was added to the directory: new.csv. Open that file in a text editor; DO NOT OPEN IT IN EXCEL OR ANOTHER SPREADSHEET EDITOR. You'll need to copy the text from this file. An additional option is to toggle whether you want last names with suffixes or not. If you do, click 4 before clicking 1; if you don't click 3 before clicking 1. Once you click 3/4 once, you don't have to click it again when using the tool later.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Section 4: Exporting
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -43,9 +47,9 @@ Finally, open MYMC. Select your franchise file, and then click file>delete. Then
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Essentially, to get good, usable draft classes in this game, you have to use player names that are built into the roster you're using. For 2004 rosters, it works great. But for other rosters, it still tries to generate names based on the 2004 database, and that's what causes the asterisk and blank name issue. So, in order for this tool to work, it has to generate names based on the existing database. Which means that the tool has to use the EXACT name. For example, if the last name was "Stingley Jr" you couldn't make it so that the last name is just "Stingley". Essentially, we're stuck with the existing names in the database. Which is unfortunate, because there's only about 1,700 names. Which means that there will be a lot of repetitive names; it's just how the cookie crumbles. Think about it this way: if you were doing it manually, you would be limited to the same set of names as well. This just automates the process.
 
-To get the names in the database, you'll notice that there's an acceptableNames.txt in the tool's directory. The text file is built on the NFL2k23 Week 0 rosters. It should work fine for other rosters, but you'll have to modify the database slightly. To do this, extract the .txt file from the NFL2k5Tool using only the "List Teams" view option. Nothing else. Then, extract it to a csv. Since I'm lazy and don't want to program any more than I have to, you'll have to open the CSV in a spreadsheet editor and copy the player name columns, and then save it as a txt. Of course, don't forget to replace the existing acceptableNames.txt. I know that's a pain in the ass, so when each official roster update releases I'll do it myself and release an update.
+To get the names in the database, you'll notice that there's an acceptableNames.txt in the tool's directory. To generate a new one, first open Bad_AL's tool. Then, open your save and open the view menu. From there, only select the "List Teams" option. Then, click save as txt and save it into your draft class generator directory. Finally, open the tool, select the '2' option and input the name of your txt file. Remember, a restart is required before using the tool again with the new acceptableNames.txt. I haven't fully tested when this function will be neccesary, but you should use it if your rosters aren't the default NFL 2k23 Week 0 rosters. You may need to use the function in later seasons in franchise; I am not completely sure what will happen.
 
-If your file's names look weird, there's the 3 and 4 debug options. Determine if it's an issue with the first names or last names, then print out the first names and or last names to a text file using the appropriate functions. Finally, send the files my way and I'll take a look at it!
+If you file names look weird, use the debug menu and copy/paste the names that look weird into a dm with me.
 
 One last thing: The source code is released publicaly with this file. I would be nowhere near where I am today without others releasing source code, so this is my way of paying it forward. Feel free to copy/paste/do whatever the hell you want with it. Go crazy.
 
