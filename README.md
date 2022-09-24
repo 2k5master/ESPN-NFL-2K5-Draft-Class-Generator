@@ -29,6 +29,7 @@ In this section, we're going to get our franchise file onto our computer and rea
 Anyhow, shut down your PCSX2 after saving your file. Then, open mymc and extract your franchise file. Extract it to a place you'll remember; for me I extract it to my saves folder in the NFL 2K23 directory. 
 
 After that, open the NFL2k5Tool. Click File>Load. Don't worry if nothing pops up! Click view, then deselect everything but the List Draft Class option. Then, click list contents. Finally, click file>save text then save it as a .csv in your NFL 2K5 Draft Tool directory. Name it anything you want.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Section 3: Using The Tool                                        
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
