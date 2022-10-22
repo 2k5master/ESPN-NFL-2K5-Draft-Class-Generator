@@ -2,11 +2,7 @@
 
 # PLEASE THROUGH ALL OF THE DOCUMENTATION BEFORE USING THE TOOL!!!
 
-# New Features
-- Added the ability to generate a new acceptableNames.txt. More on how to use this in the last section.
-- Added a debug menu.
-- Added a BETA way to weed out recognizable names. This isn't perfect, and right now it mainly just removes last names with suffixes, so you won't see "Stingley Jr" or last names like that. It's enabled by default, but you can toggle it in the program.
-- Added some developer shortcuts that y'all won't see :)
+# Check the "releases" section to download and use!
 
 Welcome to the ESPN NFL 2K5 Draft Class Generator!
 
